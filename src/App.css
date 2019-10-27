@@ -1,0 +1,74 @@
+/*
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+/* .carousel-img {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .carousel-img {
+    height: 250px;
+  }
+} */
+
+a {
+  color: inherit;
+}
+
+.ui.scrolling.dropdown .menu.notification {
+  width: 350px !important;
+}
+
+@media (max-width: 767px) {
+  .ui.scrolling.dropdown .menu.notification {
+    width: 100% !important;
+    position: fixed;
+    top: 3.5rem;
+  }
+}
+
+.ui.menu .ui.dropdown .menu > .item.notification {
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  padding: 1.0em !important;
+  white-space: normal;
+  display: flex !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item.unread.notification {
+  background-color: rgb(237, 242, 250) !important;
+}
