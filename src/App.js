@@ -439,7 +439,7 @@ class App extends Component {
             <Grid inverted>
               <Grid.Row>
                 <Grid.Column>
-                  <a href="https://github.com">
+                  <a href="https://github.com/nikov101/royale-trade">
                     <Icon name="github" size="large" />
                     <span style={{ verticalAlign: 'middle' }}>Source</span>
                   </a>
